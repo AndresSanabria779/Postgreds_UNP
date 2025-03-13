@@ -3,7 +3,7 @@ from psycopg2 import sql
 
 
 
-"""
+
 # 1. Configuración de la conexión inicial a la base de datos "postgres" para crear usuario y base de datos
 conn = psycopg2.connect(
     dbname="postgres",  # Conexión a la base de datos "postgres"
@@ -35,7 +35,7 @@ cursor.close()
 conn.close()
 
 
-"""
+
 
 
 
